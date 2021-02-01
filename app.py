@@ -10,13 +10,13 @@ model = pickle.load(open('finalized_model.pkl','rb'))
 def home():
     return render_template('index.html')
 
-@app.route('/predict',methods=['POST'])
+@app.route('/predict',methods=['GET','POST'])
 def predict():
     int_features = [int(float(x)) for x in request.form.values()]
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
     output =  prediction[0]
-    return render_template('home.html',prediction_text= "salary should be {}".format(output[0]))
+    return render_template('index.html',prediction_text= "salary should be {}".format(output[0]))
 
 @app.route('/results',methods=['POST'])
 def results():
