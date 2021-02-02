@@ -16,7 +16,7 @@ def predict():
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
     output =  prediction[0]
-    return render_template('index.html',prediction_text= "salary should be {}".format(output[0]))
+    return render_template('index.html',prediction_text= "salary should be {}".format(output))
 
 @app.route('/results',methods=['POST'])
 def results():
