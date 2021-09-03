@@ -1,5 +1,7 @@
 # Salary prediction with deployment
-Simple Linear Regression implementation of end to end on salary prediction with python. 
+
+Implementation of end to end salary prediction with simple Linear Regression model in python. 
+
 Deployment using flask web framework and heroku cloud platform.
 
 
