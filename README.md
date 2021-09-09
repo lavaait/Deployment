@@ -14,6 +14,6 @@ Running the project:
 
 4. Navigate to URL http://localhost:5000
 
-Enter valid numerical values in input boxes and hit Predict. You will be able to see the predicted results in the web page
+Enter years of experience values in the input box and hit Predict Salary. You will be able to see the predicted results in the web page
 
 Link for accessing the model: https://salary-predict-api.herokuapp.com
