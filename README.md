@@ -7,8 +7,9 @@ Description: Implementation of end to end salary prediction with simple Linear R
 Running the project: 
 
 1. Move to the project home directory. 
-2. Run the machine learning model by running below command - **python simple_linear_regression.py**. This would create a serialized version of our model into a pickle file **finalized_model.pkl**
-3. Run app.py using below command to start Flask API - **python app.py**
+2. Run the machine learning model by running below command - **python simple_linear_regression.py**. 
+   This would create a serialized version of our model into a pickle file **finalized_model.pkl**
+4. Run app.py using below command to start Flask API - **python app.py**
    By default, flask will run on port 5000.
 
 4. Navigate to URL http://localhost:5000
